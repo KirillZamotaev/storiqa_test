@@ -1,0 +1,30 @@
+var express = require('express')
+var app = express()
+ 
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+ 
+ 
+ 
+app.get('/register', function (req, res) {
+  res.send('Hello World')
+})
+ 
+app.get('/signin', function (req, res) {
+  res.send('Hello World')
+})
+ 
+ 
+ app.get('/resetusername', function (req, res) {
+  res.send('resetted')
+})
+ 
+ 
+app.get('/resetmail', function (req, res) {
+  res.send('Hello World')
+})
+
+
+ 
+app.listen(3000)
